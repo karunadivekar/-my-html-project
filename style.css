@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY BACKGROUND */
+body {
+    background: #94a4b4;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #8c9fb1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* HERO BACKGROUND */
+.hero {
+    background: linear-gradient(135deg, #020617, #a5abbd);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #25c7eb;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* SECTIONS BACKGROUND (CARD STYLE) */
+.section {
+    background: white;
+    width: 85%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    text-align: center;
+    color: #1e818a;
+    margin-bottom: 25px;
+}
+
+/* EDUCATION TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #e5e7eb;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #393b1e;
+    color: rgb(255, 255, 255);
+}
+
+/* SKILLS */
+.skills-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+}
+
+.skill {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 22%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.skill span {
+    color: gray;
+    font-size: 14px;
+}
+
+/* CONTACT */
+#contact {
+    background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #cbd5f5;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
